@@ -1,0 +1,29 @@
+System requirements
+--------------------
+
+C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
+memory available when compiling FuckCoin Core. With 512MB of memory or less
+compilation will take much longer due to swap thrashing.
+
+Dependency Build Instructions: Ubuntu & Debian
+----------------------------------------------
+Build requirements for CLI:
+
+    sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev libqrencode-dev -y
+
+Build requirements for QT GUI wallet:
+
+    sudo apt-get install libminiupnpc-dev mesa-common-dev libgmp-dev libgl1-mesa-dev -y
+    sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 libqt5printsupport5 -y
+
+
+Notes
+-----
+
+If you are getting error: "crypto/hmac_sha256.cpp:34:1: fatal error: opening 
+dependency file obj/crypto/hmac_sha256.d: No such file or directory", please 
+run the command below at src folder, then re-build again.
+
+    mkdir obj/crypto
+    
+
