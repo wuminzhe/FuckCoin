@@ -18,9 +18,9 @@ Port: 48744
 RPC Port: 48844
 
 
-BUILD LINUX (see the [Wiki](https://github.com/sagacrypto/FuckCoin/wiki/Unix-Build) for dependencies)
+BUILD LINUX (see the [Wiki](https://github.com/wuminzhe/FuckCoin/wiki/Unix-Build) for dependencies)
 -----------
-1) git clone https://github.com/sagacrypto/FuckCoin
+1) git clone https://github.com/wuminzhe/FuckCoin
 
 2) cd FuckCoin/src
 
@@ -45,9 +45,9 @@ BUILD LINUX (see the [Wiki](https://github.com/sagacrypto/FuckCoin/wiki/Unix-Bui
 BUILD WINDOWS
 -------------
 
-1) Download Qt.zip from https://github.com/sagacrypto/FuckCoin/releases/tag/v1.0 and unpack to C:/
+1) Download Qt.zip from https://github.com/wuminzhe/FuckCoin/releases/tag/v1.0 and unpack to C:/
 
-2) Download FuckCoin source from https://github.com/sagacrypto/FuckCoin/archive/master.zip 
+2) Download FuckCoin source from https://github.com/wuminzhe/FuckCoin/archive/master.zip 
 
 2.1) Unpack to C:/FuckCoin
 
