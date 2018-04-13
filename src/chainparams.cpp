@@ -85,8 +85,8 @@ public:
    		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 
-        assert(hashGenesisBlock == uint256("0xe523a92cbe17c3e13fbc1bf191e79138c9dfbe61199ede7870b4d5abd89c0e93"));
-        assert(genesis.hashMerkleRoot == uint256("0x13482ce8d40851efa8f6d175c5a886833f8d1f84fe8edfc66e53c20a4cf738cc"));
+        assert(hashGenesisBlock == uint256("0x34a676280a35184fcc931b6c0ad88414ddb23daea59c779eb9479fbe80f7a1b0"));
+        assert(genesis.hashMerkleRoot == uint256("0x2a7ef0bb3603ec5eb77da50b5d10f4c1957a409f398d706631261503b3939712"));
 
     
         vFixedSeeds.clear();
